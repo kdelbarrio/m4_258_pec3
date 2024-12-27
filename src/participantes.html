@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Participantes - Jornadas de Seguridad Informática</title>
+  <link rel="stylesheet" href="./assets/styles/main.scss">
+</head>
+<body class="bg-gray-100 font-sans">
+  
+  <header class="col-span-full bg-blue-600 text-white p-4">
+    <include src="./views/header.html"></include>
+  </header>
+
+  <main  class="container mx-auto mt-6">
+    <section>
+      <h2 class="text-2xl font-semibold text-gray-700 mb-4">Conoce a nuestros participantes destacados</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        
+        <include src="./views/participant.html">
+          {
+          "participant_link": "https://avatar.iran.liara.run/public/60",
+          "participant_name" : "Dr. Ana López",
+          "participant_bio" : "Experta en ciberseguridad financiera y profesora en la Universidad de Tecnología."
+          }
+        </include>
+
+        <include src="./views/participant.html">
+          {
+          "participant_link": "https://avatar.iran.liara.run/public/33",
+          "participant_name" : "Juan Martínez",
+          "participant_bio" : "Consultor de seguridad en infraestructuras críticas con más de 15 años de experiencia."
+          }
+        </include>
+
+        <include src="./views/participant.html">
+          {
+          "participant_link": "https://avatar.iran.liara.run/public/67",
+          "participant_name" : "Laura Fernández",
+          "participant_bio" : "Investigadora en inteligencia artificial aplicada a la detección de amenazas."
+          }
+        </include>
+
+        <include src="./views/participant.html">
+          {
+          "participant_link": "https://avatar.iran.liara.run/public/50",
+          "participant_name" : "Antonio Lucas",
+          "participant_bio" : "Consultor de seguridad en en la administración pública, con más de 25 años de experiencia."
+          }
+        </include>
+
+        <include src="./views/participant.html">
+          {
+          "participant_link": "https://avatar.iran.liara.run/public/37",
+          "participant_name" : "José Alonso",
+          "participant_bio" : "Programador y experto en inteligencia artificial aplicada a la detección de amenazas."
+          }
+        </include>
+
+    </section>
+  </div>
+  </main>
+
+  <footer class="col-span-full bg-gray-800 text-white p-6">
+    <include src="./views/footer.html"></include>
+  </footer>
+  <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+</html>
