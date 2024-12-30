@@ -6,16 +6,17 @@
   <title>Participantes - Jornadas de Seguridad Informática</title>
   <link rel="stylesheet" href="./assets/styles/main.scss">
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="bg-black font-sans">
   
-  <header class="col-span-full bg-blue-600 text-white p-4">
+  <header class="col-span-full bg-blue text-white p-4">
     <include src="./views/header.html"></include>
   </header>
 
   <main  class="container mx-auto mt-6">
-    <section>
-      <h2 class="text-2xl font-semibold text-gray-700 mb-4">Conoce a nuestros participantes destacados</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <section class="p-4">
+      <h2 class="text-3xl font-semibold text-white my-6 text-center">Conoce a nuestros participantes destacados</h2>
+      <!--<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto justify-center">-->
+        <div class="flex flex-wrap gap-8 max-w-4xl mx-auto justify-center">
         
         
         <include src="./views/participant.html">
@@ -62,7 +63,7 @@
   </div>
   </main>
 
-  <footer class="col-span-full bg-gray-800 text-white p-6">
+  <footer class="col-span-full bg-footer text-white p-4 mt-8">
     <include src="./views/footer.html"></include>
   </footer>
   <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->

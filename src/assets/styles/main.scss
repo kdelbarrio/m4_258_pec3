@@ -1,3 +1,14 @@
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .text-shadow {
+      @apply text-white;
+      text-shadow: 0 2px 5px rgba(0,0,0,.7);
+    }
+  }
+
+
