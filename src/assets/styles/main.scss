@@ -4,11 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .text-shadow {
-      @apply text-white;
-      text-shadow: 0 2px 5px rgba(0,0,0,.7);
-    }
+@layer components {
+  .btn-primary {
+    @apply bg-blue px-4 py-2 rounded hover:bg-blue/90;
   }
+  .menu-link {
+    @apply text-white hover:text-black;
+ }
+}
 
-
+@layer utilities {
+  .text-shadow {
+    @apply text-white;
+    text-shadow: 0 2px 5px rgba(0,0,0,.7);
+  }
+  .w-2-col {
+    width: calc(50% - 2rem);
+  }
+  .w-3-col {
+    width: calc(33.333% - 2rem);
+  }
+}
