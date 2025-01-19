@@ -72,7 +72,7 @@ section h2 {
 }
 
 #contestants p {
-    font-size: 1.1em;
+    font-size: 1.5em;
     color: #666;
     margin-top: 10px;
 }
@@ -83,7 +83,15 @@ section h2 {
     gap: 2rem;
     margin-bottom: 2em;
   }
-  
+ 
+.recipes-description {
+    color: #666;
+    font-size: 1.5em;
+    margin: 1em auto;
+    text-align: center;
+  }
+   
+
 .recipe {
     display: flex;
     align-items: flex-start;
